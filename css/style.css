@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+body,header,ul,li,dl,ol,dt,dd,article,menu,section,footer,div,p,h1,h2,h3,h4,h5,input{margin:0; padding:0;}
+html{font-size:14px;}
+body{ font-family:"微软雅黑", Arial; color:#333;}
+input {-webkit-appearance:none; border-radius:0;}
+a{text-decoration:none; outline:none; color:#fff;}
+a:link{text-decoration: none;}
+ul,li,ol,dl,dt,dd{list-style:none;}
+input::-webkit-input-placeholder {color: #d2d2d2;}
+
+.cb{clear:both; overflow:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+
+.hide{display: none;}
+.show{display: block;}
+.poRl{position: relative;}
+.colorZ{color:#8c7dff;}
+@media screen and (min-width:375px){
+   html,body{font-size:14.6px;}
+    
+}
+@media screen and (min-width:414px){
+    html,body{font-size:15px;}
+    .phoneFoot{
+        position: absolute;
+        left:11%!important;
+        bottom:22%;
+        line-height: 1.25rem;
+    }
+}
+
+html,body{
+    height:100%;
+    overflow: hidden;
+    width:100%;
+    position:absolute;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    background:#EFEFF4;
+    color:#fff;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+	-webkit-box-flex: 1;
+	-webkit-overflow-scrolling:touch;
+	overflow-y:auto;
+	overflow-x:hidden;
+	position:relative;
+}
+.downloadBg{
+
+    width: 100%;
+    height: 100%;
+    background: url("../images/shareBg.jpg") no-repeat 0;
+    background-size: 100% 100%;
+
+}
+.phoneBg{
+    width: 90%;
+    height: 80%;
+    background: url("../images/phone.png") no-repeat 0 5%;
+    background-size: 100% 100%;
+    margin-left: 5%;
+    text-align: center;
+}
+.phoneTitle{
+    font-size: 2.57rem;
+    color:#fff;
+    padding-top: 1.2rem;
+}
+.phoneTitle>span{
+    font-size: 1.37rem;
+}
+.phoneFoot{
+    position: absolute;
+    left:8%;
+    bottom:22%;
+    line-height: 1.25rem;
+
+}
+.downloadLogo{
+    margin: 1rem 5% 0.5rem 5%;
+}
+.downloadLogo li{
+    width: 45%;
+    height: 3rem;
+    line-height: 3.2rem;
+    border-radius: 5px;
+    text-indent: 16.5%;
+    font-size: 1.1rem;
+
+
+}
+.downloadLogo .iosDown{
+    background:#8c7dfe url("../images/iosLogo.png") no-repeat 11%;
+    background-size: 19%;
+    margin-right:0;
+    float: left;
+}
+.downloadLogo .androidDown{
+    background:#8c7dfe url("../images/androidLogo.png") no-repeat 11%;
+    background-size: 20%;
+    float: right;
+}
+.shareFoot{
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 5%;
+    text-align: center;
+}
+/*弹出层*/
+.popShare{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+
+}
+.pointImg{
+    padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+    width: 40%;
+    float: right;
+}
+.pointImg img{
+    width: 100%;
+}
+.popText{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.popText li{
+    padding-bottom: 0.5rem;
+    line-height: 1.5rem;
+}
+.wechatImg{
+    width: 1.1rem;
+}
+.safariText{
+    text-indent:1rem;
+}
+.colorW{color:#ff0!important;}
